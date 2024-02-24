@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.cart-summary-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+.cart-items-count {
+  margin: 5px 0 25px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #616e7c;
+}
+.order-total-view {
+  color: #171f4b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+@media screen and (min-width: 768px) {
+  .order-total-view {
+    font-size: 32px;
+  }
+}
+.order-total-label {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .order-total-label {
+    font-size: 24px;
+  }
+}
+.total-item {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 2px;
+}
+@media screen and (min-width: 768px) {
+  .total-items {
+    font-size: 16px;
+  }
+}
+.checkout-btn {
+  background-color: #0b69ff;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 8px;
+}
+@media screen and (max-width: 767px) {
+  .d-sm-done {
+    display: flex;
+  }
+}
+@media screen and (min-width: 768px) {
+  .d-lg-none {
+    display: none;
+  }
+}
+.popup-content {
+  padding: 5px;
+  display: flex;
+  justify-content: column;
+  flex-direction: column;
+  align-items: center;
+}
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
